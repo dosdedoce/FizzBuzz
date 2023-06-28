@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+li{
+    color:coral;
+}
+li[title="FizzBuzz"] { 
+    color: crimson;
+}
+li[title="Fizz"] { 
+    color: rgb(40, 20, 220);
+}
+li[title="Buzz"] { 
+    color: rgb(92, 160, 46);
+}
+
+
